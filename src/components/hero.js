@@ -1,7 +1,7 @@
 import './hero.css'
 import pic1 from '../images/hero_bg_1.png'
 import pic2 from '../images/hero_bg_2.png'
-import { slide as Menu } from 'react-burger-menu'
+// import { slide as Menu } from 'react-burger-menu'
 
 const Hero = () => {
 
