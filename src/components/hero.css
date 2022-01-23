@@ -65,6 +65,7 @@
     left: -10%;
     top: 20% ;
     height: 150vh;
+    z-index: 1;
 }
 
 .img2 {
@@ -77,6 +78,7 @@
 .img1 > img {
     position: sticky;
     top: 0;
+    width: 80%;
 }
 
 .img2 > img {

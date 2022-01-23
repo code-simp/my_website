@@ -1,11 +1,10 @@
-import './hero.css'
 import pic1 from '../images/hero_bg_1.png'
 import pic2 from '../images/hero_bg_2.png'
 // import { slide as Menu } from 'react-burger-menu'
 
 const Hero = () => {
-
-    return ( 
+    require("./hero.css");
+    return (
         <div className="heroContainer">
             <div className="gridContainer">
                 <div className="gridItem1">
@@ -15,7 +14,7 @@ const Hero = () => {
                 </div>
                 <div className="gridItem2">
                     <div className="img1">
-                        <img src={ pic1 } alt="pic1" />
+                        <img src={pic1} alt="pic1" />
                     </div>
                     <div className="my">
                         MY
@@ -27,12 +26,12 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="gridItem4">
-                <div className="img2">
-                        <img src={ pic2 } alt="pic2" />
+                    <div className="img2">
+                        <img src={pic2} alt="pic2" />
                     </div>
                 </div>
                 <div className="gridItem5">
-                {/* <Menu>
+                    {/* <Menu>
                     <a id="home" className="menu-item" href="/">Home</a>
                     <a id="about" className="menu-item" href="/about">About</a>
                     <a id="contact" className="menu-item" href="/contact">Contact</a>
@@ -41,9 +40,9 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default Hero;
 
 // #to create vertical line
