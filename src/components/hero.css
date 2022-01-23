@@ -32,6 +32,7 @@
 .gridItem3 {
     height: 100vh;
     background-image: url('../images/hero_bg_main.png');
+    background-position: center;
     padding-left: 100px;
 }
 
