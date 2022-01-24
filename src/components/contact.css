@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contactContainer{
+    background-color: #C4C4C4;
+    height: 100vh;
+    min-width: 100%;
+
+}
+
+.cHeading {
+    padding-top: 10%;
+    padding-left: 10%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 12vh;
+    font-weight: 700;
+    letter-spacing: 40px;
+    text-align: left;
+}
+
+form {
+    text-align: left;
+    padding-left: 10% ;
+}
+
+form label {
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 3vh;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+form input {
+    background-color: #C4C4C4;
+    border-width: 4px;
+    width: 25%;
+    padding: 12px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vh;
+}
+
+.cButton button {
+    border-color: black;
+    border-width: 6px;
+    background-color: #C4C4C4;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: 700;
+    padding: 1vh;
+    margin: 0;
+    z-index: 5;
+    transition: 0.3s;
+    width: 15%;
+}
+
+.cButton button:hover {
+    background-color: black;
+    color: #C4C4C4;
+}
+
+.formText {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 2vh;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
