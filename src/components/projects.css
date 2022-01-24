@@ -20,6 +20,11 @@
     position: relative;
 }
 
+.ProjgridItem3 {
+    height: 100vh;
+
+}
+
 .projStickyDiv1 {
     position: absolute;
     left: 20%;
@@ -62,4 +67,109 @@
     right: 10%;
     bottom: 0;
     width: 50%;
+}
+
+.projFlexContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box1 {
+    flex: 50%;
+}
+
+.box2 {
+    flex: 50%;
+}
+
+.box1Flex {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.box2Flex {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    background-color: #C4C4C4;
+}
+
+.Plogo {
+    /* padding: 50px; */
+    flex: 40%;
+    padding-top: 80px;
+    
+}
+
+.Plogo img {
+    vertical-align: bottom;
+}
+
+.Pdesc {
+    padding-top: 20px;
+    flex: 30%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2.5vh;
+    line-height: 40px;
+    color: #C5C5C5;
+}
+
+.Pdesc2 {
+    padding-top: 0px;
+    flex: 30%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2.5vh;
+    line-height: 40px;
+    color: #1C1D1C;
+}
+
+.Pbutton1 {
+    flex: 30%;
+}
+
+.Pbutton2 {
+    flex: 30%;
+}
+
+.Pbutton1 button {
+    border-color: #9D9D9D;
+    border-width: 6px;
+    background-color: #1C1D1C;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: 700;
+    padding: 2vh;
+    margin: 0;
+    transition: 0.3s;
+    color: #D8D8D8;
+}
+
+.Pbutton1 button:hover {
+    background-color: #9D9D9D;
+    color: #1C1D1C;
+}
+
+.Pbutton2 button {
+    border-color: black;
+    border-width: 6px;
+    background-color: #C4C4C4;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: 700;
+    padding: 2vh;
+    margin: 0;
+    z-index: 5;
+    transition: 0.3s;
+    vertical-align: middle;
+}
+
+.Pbutton2 button:hover {
+    background-color: black;
+    color: #C4C4C4;
 }

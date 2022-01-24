@@ -86,7 +86,7 @@
     transition: 0.3s;
 }
 
-button:hover {
+.about2 button:hover {
     background-color: black;
     color: #C4C4C4;
 }

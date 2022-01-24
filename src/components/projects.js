@@ -1,6 +1,8 @@
 import pic3 from '../images/projects_pic1.png';
 import pic4 from '../images/projects_pic2.png';
 import pic5 from '../images/projects_pic3.png';
+import logo1 from '../images/airway.png';
+import logo2 from '../images/metromo.png';
 
 const Projects = () => {
     require("./projects.css");
@@ -19,6 +21,39 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="ProjgridItem3">
+
+                    <div className="projFlexContainer">
+                        <div className="box1">
+                            <div className="box1Flex">
+                                <div className="Plogo">
+                                    <img src={logo1} alt="airwayLogo" />
+                                </div>
+                                <div className="Pdesc">
+                                A project that ease <br /> booking flights
+                                </div>
+                                <div className="Pbutton1">
+                                    <button>
+                                        View Code
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="box2">
+                        <div className="box2Flex">
+                        <div className="Plogo">
+                                    <img src={logo2} alt="airwayLogo" />
+                                </div>
+                                <div className="Pdesc2">
+                                A project that can potentially <br /> provide better user experience <br /> to daily metro users
+                                </div>
+                                <div className="Pbutton2">
+                                    <button>
+                                        View Code
+                                    </button>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
                 <div className="ProjgridItem4">
