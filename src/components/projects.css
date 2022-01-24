@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.projectsContainer{
+    background-color: #1C1D1C;
+    max-height: 100vh;
+    min-width: 100%;
+
+}
+
+.ProjgridItem2 {
+    height: 100vh;
+    position: relative;
+}
+
+.projStickyDiv1 {
+    position: absolute;
+    left: 20%;
+    top: -20%;
+    height: 100vh;
+}
+
+.projStickyDiv1 img {
+    position: sticky;
+    width: 90%;
+    top: 0;
+}
+
+.ProjgridItem4 {
+    height: 100vh;
+    position: relative;
+}
+
+.projStickyDiv2 {
+    position: absolute;
+    left: 20%;
+    top: -50%;
+    height: 150vh;
+}
+
+.projStickyDiv2 img {
+    position: sticky;
+    width: 120%;
+    top: 0;
+    z-index: 1;
+}
+
+.ProjgridItem5 {
+    position: relative;
+    height: 100vh;
+}
+
+.ProjgridItem5 img {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    width: 50%;
+}

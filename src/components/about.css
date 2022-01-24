@@ -13,7 +13,7 @@
 .gridContainerAbout {
     background-color: black;
     display: grid;
-    grid-template-columns: 20% 60% 19.9%;
+    grid-template-columns: 15% 70% 14.9%;
     grid-gap: 1px;
 }
 
@@ -32,7 +32,7 @@
     font-size: 26.65350444225074vh;
     font-size: 13.820335636722605vh;
     bottom: 2%;
-    bottom: 0;
+    right: 2%;
 }
 
 .about2 {
