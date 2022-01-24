@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll'
 
 const About = () => {
     require("./about.css");
@@ -27,15 +28,16 @@ const About = () => {
                         <div className="email1">itanupad@gmail.com</div>
                         or let’s get in touch <br /><br />
                     </span>
-
-                    <button>
-                        Let's talk
-                    </button>
+                    <Link to='contact'>
+                        <button>
+                            Let's talk
+                        </button>
+                    </Link>
 
                 </div>
 
                 <div className="about3">
-                    
+
                 </div>
             </div>
         </div>

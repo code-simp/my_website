@@ -7,7 +7,7 @@ import logo2 from '../images/metromo.png';
 const Projects = () => {
     require("./projects.css");
 
-    return ( 
+    return (
         <div className="projectsContainer" id='project'>
             <div className="gridContainer">
                 <div className="gridItem1">
@@ -29,28 +29,32 @@ const Projects = () => {
                                     <img src={logo1} alt="airwayLogo" />
                                 </div>
                                 <div className="Pdesc">
-                                A project that ease <br /> booking flights
+                                    A project that ease <br /> booking flights
                                 </div>
                                 <div className="Pbutton1">
-                                    <button>
-                                        View Code
-                                    </button>
+                                    <a href="https://github.com/Project-Airway" target="_blank">
+                                        <button>
+                                            View Code
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="box2">
-                        <div className="box2Flex">
-                        <div className="Plogo">
+                            <div className="box2Flex">
+                                <div className="Plogo">
                                     <img src={logo2} alt="airwayLogo" />
                                 </div>
                                 <div className="Pdesc2">
-                                A project that can potentially <br /> provide better user experience <br /> to daily metro users
+                                    A project that can potentially <br /> provide better user experience <br /> to daily metro users
                                 </div>
                                 <div className="Pbutton2">
-                                    <button>
-                                        View Code
-                                    </button>
-                                </div>  
+                                    <a href="https://github.com/code-simp/project_metromo" target="_blank">
+                                        <button>
+                                            View Code
+                                        </button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -58,7 +62,7 @@ const Projects = () => {
                 </div>
                 <div className="ProjgridItem4">
 
-                <div className="projStickyDiv2">
+                    <div className="projStickyDiv2">
                         <img src={pic4} alt="pic4" />
                     </div>
 
@@ -68,8 +72,8 @@ const Projects = () => {
                 </div>
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default Projects
-;
+    ;
