@@ -77,10 +77,24 @@
 
 .box1 {
     flex: 50%;
+    transition: 0.3s;
+}
+
+.box1:hover {
+    background-color: #111111;
+    
 }
 
 .box2 {
     flex: 50%;
+    background-color: #C4C4C4;
+    transition: 0.3s;
+
+
+}
+
+.box2:hover {
+    background-color: #eeeeee;
 }
 
 .box1Flex {
@@ -93,7 +107,6 @@
     display: flex;
     flex-direction: column;
     height: 50vh;
-    background-color: #C4C4C4;
 }
 
 .Plogo {
