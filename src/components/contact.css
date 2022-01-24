@@ -71,3 +71,12 @@ form input {
     font-weight: 400;
     letter-spacing: 5px;
 }
+
+.formText2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 2vh;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: green;
+}
