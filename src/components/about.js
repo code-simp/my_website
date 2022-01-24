@@ -4,7 +4,7 @@ const About = () => {
 
     return (
 
-        <div className="aboutContainer">
+        <div className="aboutContainer" id="about">
             <div className="gridContainerAbout">
                 <div className="about1">
                     <div className="about">

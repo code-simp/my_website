@@ -8,7 +8,7 @@ const Projects = () => {
     require("./projects.css");
 
     return ( 
-        <div className="projectsContainer">
+        <div className="projectsContainer" id='project'>
             <div className="gridContainer">
                 <div className="gridItem1">
                     <div className="tarun">

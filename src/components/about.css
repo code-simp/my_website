@@ -89,5 +89,6 @@
 .about2 button:hover {
     background-color: black;
     color: #C4C4C4;
+    cursor: pointer;
 }
 

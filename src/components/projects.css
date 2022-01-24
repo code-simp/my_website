@@ -152,6 +152,7 @@
 .Pbutton1 button:hover {
     background-color: #9D9D9D;
     color: #1C1D1C;
+    cursor: pointer;
 }
 
 .Pbutton2 button {
@@ -172,4 +173,5 @@
 .Pbutton2 button:hover {
     background-color: black;
     color: #C4C4C4;
+    cursor: pointer;
 }

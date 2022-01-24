@@ -5,7 +5,7 @@ import pic2 from '../images/hero_bg_2.png'
 const Hero = () => {
     require("./hero.css");
     return (
-        <div className="heroContainer">
+        <div className="heroContainer" id='hero'>
             <div className="gridContainer">
                 <div className="gridItem1">
                     <div className="tarun">

@@ -2,7 +2,7 @@ const Contact = () => {
     require('./contact.css');
 
     return ( 
-        <div className="contactContainer">
+        <div className="contactContainer" id='contact'>
             <div className="gridContainerAbout">
                 <div className="about1">
                     <div className="about">
