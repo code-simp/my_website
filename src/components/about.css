@@ -86,7 +86,7 @@
     font-size: 3.5vh;
     font-weight: 700;
     padding: 2vh;
-    margin: 0;
+    margin-top: 50px;
     z-index: 5;
     transition: 0.3s;
 }
@@ -141,7 +141,7 @@
         font-size: 3.5vh;
         font-weight: 700;
         padding: 2vh;
-        margin: 0;
+        margin-top: 20px;
         z-index: 5;
         transition: 0.3s;
         align-self: center;
@@ -157,7 +157,6 @@
     }
 
     .mob-about {
-        position: absolute;
         position: absolute;
         font-family: 'Montserrat', sans-serif;
         font-size: 12vh;

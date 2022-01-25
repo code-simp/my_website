@@ -34,7 +34,7 @@ const About = () => {
                         </ul>
                         here’s my secret contact mail - <br />
                         <div className="email1">itanupad@gmail.com</div>
-                        or let’s get in touch <br /><br />
+                        or let’s get in touch <br />
                     </span>
                     <Link to='contact'>
                         <button>
