@@ -20,6 +20,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about2">
+                    <div className="about2-mob">
                     <div className="aHeading">
                         Pssh... Hey there<br /><br />
                     </div>
@@ -45,6 +46,7 @@ const About = () => {
 
                 <div className="about3">
 
+                </div>
                 </div>
             </div>
         </div>

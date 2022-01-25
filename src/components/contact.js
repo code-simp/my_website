@@ -32,7 +32,7 @@ const Contact = () => {
                         CONTACT
                     </div>
                 </div>
-                <div className="about2">
+                <div className="contact2">
                     <div className="cHeading">
                         LET'S TALK<br /><br />
                     </div>
