@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
 
+@media only screen and (min-width: 1500px) {
 
 *{
     margin: 0;
     box-sizing: border-box;
 }
 
-
+.hero-mobile-only {
+    display: none;
+}
 
 .heroContainer{
     background-color: #1C1D1C;
@@ -116,3 +119,160 @@
     margin: 0 10px;
     height: 125px;
 }
+
+}
+
+@media only screen and (max-width: 1499px)  {
+    .heroContainer{
+        background-color: #1C1D1C;
+        height: 100vh;
+        min-width: 100%;
+    
+    }
+
+    .hero-mobile-only {
+        display: none;
+    }
+    
+    .gridContainer {
+        background-color: rgba(255, 255, 255, 0.3);
+        display: grid;
+        grid-template-columns: 15% 15% 40% 15% 14.8%;
+        grid-gap: 1px;
+    }
+    
+    .gridContainer > div {
+        background-color: #1C1D1C;
+        text-align: center;
+        /* padding: 20px 0; */
+        font-size: 30px;
+      }
+    
+    .gridItem3 {
+        height: 100vh;
+        background-image: url('../images/hero_bg_main.png');
+        background-position: center;
+        padding-left: 100px;
+    }
+    
+    .gridItem {
+        height: 100vh;
+    }
+    
+    .gridItem2 {
+        height: 100vh;
+        position: relative;
+    }
+    
+    .gridItem4 {
+        height: 100vh;
+        position: relative;
+    }
+    
+    .my {
+        display: none;
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+        font-size: 26.65350444225074vh;
+        color: #d1d1d1;
+        bottom: 2%;
+        bottom: 0;
+    }
+    
+    .img1 {
+        position: absolute;
+        left: -10%;
+        top: 20% ;
+        height: 150vh;
+        z-index: 1;
+    }
+    
+    .img2 {
+        position: absolute;
+        right: -30%;
+        top: 40% ;
+        height: 100vh;
+    }
+    
+    .img1 > img {
+        position: sticky;
+        top: 0;
+        width: 80%;
+    }
+    
+    .img2 > img {
+        position: sticky;
+        top: 0;
+        width: 80%;
+    }
+    
+    .epoch {
+        display: none !important;
+        font-family: 'Montserrat', sans-serif;
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+        font-size: 26.65350444225074vh;
+    }
+    
+    .gridItem1 {
+        position: relative;
+    }
+    
+    .tarun {
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+        font-size: 13.820335636722605vh;
+        color: #AD8893;
+        bottom: 2%;
+        right: 2%;
+    }
+    
+    .vertical-line{
+        display: inline-block;
+        border-left: 1px solid #ccc;
+        margin: 0 10px;
+        height: 125px;
+    }
+} 
+
+@media only screen and (max-width: 400px) {
+    html,body{
+        overflow-x: hidden;
+    }
+
+    .gridContainer {
+        display: block;
+    }
+
+
+
+    .hero-mobile-only {
+        display: block;
+        background-image: url('../images/mob_img1.png');
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-position: right;
+        position: relative;
+    }
+
+    .hero-text-mob {
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+        font-size: 7vh;
+        color: #AD8893;
+        left: 2%;
+        top: 2%;
+    }
+
+    .gridItem1, .gridItem2, .gridItem3, .gridItem4, .gridItem5 {
+        display: none;
+    }
+}
+

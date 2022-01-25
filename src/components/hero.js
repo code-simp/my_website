@@ -6,6 +6,11 @@ const Hero = () => {
     require("./hero.css");
     return (
         <div className="heroContainer" id='hero'>
+            <div className="hero-mobile-only">
+                <div className="hero-text-mob">
+                    TARUN
+                </div>
+            </div>
             <div className="gridContainer">
                 <div className="gridItem1">
                     <div className="tarun">

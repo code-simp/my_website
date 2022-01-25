@@ -59,3 +59,26 @@
 .fLinks a:visited {
     color: white;
 }
+
+@media only screen and (max-width: 400px) {
+    .gridContainerFooter {
+        display: block;
+    }
+
+    .leftSpace, .rightSpace {
+        display: none;
+    }
+
+    .footerGrid {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: left;
+        text-align: left;
+    }
+
+    .col1, .col2, .col3 {
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+
+}    

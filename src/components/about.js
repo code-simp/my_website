@@ -6,6 +6,13 @@ const About = () => {
     return (
 
         <div className="aboutContainer" id="about">
+
+
+            <div className="about-mob-only">
+                <div className="mob-about">
+                    ABOUT
+                </div>
+            </div>
             <div className="gridContainerAbout">
                 <div className="about1">
                     <div className="about">

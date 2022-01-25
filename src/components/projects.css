@@ -188,3 +188,10 @@
     color: #C4C4C4;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 400px) {
+    .ProjgridItem2, .ProjgridItem4, .ProjgridItem5 {
+        display: none;
+    }
+}
+
