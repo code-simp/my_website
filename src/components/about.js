@@ -44,9 +44,10 @@ const About = () => {
 
                 </div>
 
+                
+                </div>
                 <div className="about3">
 
-                </div>
                 </div>
             </div>
         </div>

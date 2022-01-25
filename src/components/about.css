@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+.about-mob-only {
+    display: none;
+}
+
 .aboutContainer{
     background-color: #C4C4C4;
     height: 100vh;
@@ -43,6 +47,7 @@
 
 .about3 {
     background-color: #C4C4C4;
+    height: 100vh;
 
 }
 
@@ -96,7 +101,13 @@
     display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media screen and (max-height: 700px){
+    .aboutContainer{
+        height: 120vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
     .gridContainerAbout {
         display: block;
     }

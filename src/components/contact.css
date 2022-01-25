@@ -21,6 +21,10 @@
     text-align: left;
 }
 
+.contact2 {
+    background-color: #C4C4C4;
+}
+
 form {
     text-align: left;
     padding-left: 10% ;
@@ -81,7 +85,13 @@ form input {
     color: green;
 }
 
-@media only screen and (max-width: 400px) {
+@media screen and (max-height: 700px){
+    .contactContainer {
+        height: 300vh;
+    }
+}    
+
+@media only screen and (max-width: 500px) {
 
     .contactContainer{
         background-color: #C4C4C4;

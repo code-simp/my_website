@@ -189,7 +189,28 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 400px) {
+
+@media screen and (max-height: 700px){
+
+    .projectsContainer{
+        background-color: #1C1D1C;
+        height: 140vh;
+        min-width: 100%;
+    
+    }
+    .box1Flex, .box2Flex{
+        height: 50vh;
+    }
+
+    .Plogo {
+        /* padding: 50px; */
+        flex: 40%;
+        padding-top: 20px;
+        
+    }
+}
+
+@media only screen and (max-width: 500px) {
     .ProjgridItem2, .ProjgridItem4, .ProjgridItem5 {
         display: none;
     }

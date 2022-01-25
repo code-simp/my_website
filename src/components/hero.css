@@ -39,7 +39,7 @@
     padding-left: 100px;
 }
 
-.gridItem {
+.gridItem1 {
     height: 100vh;
 }
 
@@ -239,7 +239,7 @@
     }
 } 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     html,body{
         overflow-x: hidden;
     }
@@ -265,7 +265,7 @@
         font-family: 'Montserrat', sans-serif;
         writing-mode: tb-rl;
         transform: rotate(-180deg);
-        font-size: 7vh;
+        font-size: 20vw;
         color: #AD8893;
         left: 2%;
         top: 2%;
